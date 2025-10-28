@@ -5,7 +5,7 @@ import APP_FEATURES from "../utils/data";
 import { useNavigate } from 'react-router-dom';
 import { LuSparkles } from "react-icons/lu";
 import Modal from "../components/Modal"; 
-import Login from "../pages/Auth/Login";
+import Login from "../pages/Auth/login";
 import SignUp from "../pages/Auth/SignUp";
 import { UserContext } from '../context/userContext';
 import ProfileInfoCard from "../components/Cards/ProfileInfoCard";
@@ -146,3 +146,4 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+
